@@ -1,0 +1,30 @@
+/*Footer*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.media{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+    .house{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #a1a1a1;
+}
+.tel{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #a1a1a1;
+}
+.addr{
+    color:#fff;
+    font-size: 16px;
+    line-height: 40px; 
+    padding-left: 20px;
+}
